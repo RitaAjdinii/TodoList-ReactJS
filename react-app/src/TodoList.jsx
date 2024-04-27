@@ -69,15 +69,14 @@ function TodoList() {
                                 onChange={(e) => setNewTask(e.target.value)}
                             />
                         ) : (
-                            <span className='text'>{task}</span>
-                        )}
-                        {editedTaskIndex !== index && (
                             <>
+                            <span className='text'>{task}</span>
                                 <button className='delete-button' onClick={() => deleteTask(index)}>Delete</button>
                                 <button className='edit-button' onClick={() => editTask(index)}>Edit</button>
                                 <button className='move-button' onClick={() => moveTaskUp(index)}>Up</button>
                                 <button className='move-button' onClick={() => moveTaskDown(index)}>Down</button>
                             </>
+                            
                         )}
                     </li>
                 ))}

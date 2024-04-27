@@ -47,6 +47,24 @@ button{
   background-color: hsl(0, 47%, 40%);
 }
 
+.edit-button{
+  background-color: hsl(41, 100%, 69%);
+}
+
+.edit-button:hover{
+  background-color: hsl(41, 100%, 59%);
+}
+
+.save-button{
+  background-color: hsl(96, 94%, 67%);
+}
+
+.add-button:hover{
+  background-color: hsl(96, 94%, 57%);
+}
+
+
+
 .move-button{
   background-color: hsl(234, 47%, 64%);
 }

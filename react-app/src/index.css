@@ -101,7 +101,7 @@ li{
   flex-basis: 0%;
 }
 
-.delete-button,.move-button{
+button{
   padding: 8px 12px;
   font-size: 1.4rem;
   margin-left:10px;
